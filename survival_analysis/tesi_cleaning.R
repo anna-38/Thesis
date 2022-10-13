@@ -35,7 +35,7 @@ data$Alfa.Feto.Protein<-as.numeric(data$Alfa.Feto.Protein)
 data$bloodlos<-as.numeric(data$bloodlos)
 summary(data)
 
-à####### to create descriptive statistics table for excel ##############
+Ã ####### to create descriptive statistics table for excel ##############
 library(tableone)
 table  <- CreateTableOne(vars =
                            names(subset(data[4:length(data)],select=-c(data_surgery,data_dimissione,X90_d_mortality,dataMorte_ultimoFU,datarecidiva_ultimoFU))),
