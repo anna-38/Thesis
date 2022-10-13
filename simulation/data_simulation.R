@@ -58,7 +58,7 @@ for (j in 1:Nsim) {
   
   # generate the variables and the "alphas":
   
-  # et‡ (rnorm)
+  # et√† (rnorm)
   # sessoM (rbinom)
   # cirrosi (rbinom)
   # Steatoepatite (rbinom)
