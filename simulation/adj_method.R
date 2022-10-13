@@ -54,9 +54,6 @@ colu <- c('s_HR_adj','s_SE_adj','s_LOWER_adj','s_UPPER_adj','w_HR_adj','w_SE_adj
 tab<-as.data.frame(matrix(nrow=1000,ncol=length(colu)))
 colnames(tab)<-colu
 
-# tab<-read.csv('sum_D.csv')
-
-
 for (j in 1:N) {
   # SIMULATED DATASET
   
